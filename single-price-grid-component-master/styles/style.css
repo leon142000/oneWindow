@@ -1,0 +1,104 @@
+
+html{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background: hsl(204, 43%, 93%)
+    
+}
+
+body{
+   
+    display: grid;
+    grid-template-rows: 50% 2fr;
+    grid-template-columns: 40% 2fr;
+    
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    border-radius: px;
+   
+}
+
+.join{
+    grid-area: 1/1/2/3;
+    
+    background: white;
+}
+
+h1{
+    color: hsl(179, 70%, 43%);
+    padding-left: 7%;
+}
+
+.h31{
+    color: hsl(71, 73%, 54%);
+    padding-left: 7%;
+}
+
+p{
+    color: hsl(218, 22%, 67%);
+    padding-left: 7%;
+    font-size: 18px;
+}
+
+h3{
+    color: white;
+    padding-left: 7%;
+}
+
+span{
+    font-size: 2em;
+    padding-left: 7%;
+    color: white;
+}
+
+span b {
+    padding-left: 3%;
+    font-size: 18px;
+    font-weight: normal;
+    color:   hsl(218, 22%, 67%);
+}
+
+.full {
+    color: white;
+}
+
+.monthlySub{
+   grid-area: 2/1/2/1;
+   
+   background: hsl(179, 70%, 43%);
+   
+   
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla', 'sans-serif';
+    width: 70%;
+    height: 25%;
+    font-size: 18px;
+    border-radius:S 4px;
+    color: white;
+    border: none;
+ 
+    
+    
+    
+}
+
+.whyUs{
+    grid-area: 2/2/2/2;
+    background-color: hsl(179, 62%, 43%);
+    
+   
+}
+
+ul{
+   color: hsl(204, 43%, 93%);
+   
+}
+
+.attribution{
+    position: absolute;
+    right: 20px;
+}
